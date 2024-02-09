@@ -1,5 +1,5 @@
 # Simple script for scaffolding a fastApi server
-##Usage:
+## Usage:
 run ```python3 createApiStructure.py [foldername]```
 done!
 
