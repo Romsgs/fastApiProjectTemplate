@@ -1,10 +1,10 @@
 import os
 import sys
 routes_content = """
-from fastapi import FastAPI
+from fastapi import APIRouter
 from decouple import config
 from app.api.controllers.controller import controller
-api = FastAPI()
+api = APIRouter()
 
 @api.get("/exemple/{year}")
 def funtion_to_execute(year: int):
