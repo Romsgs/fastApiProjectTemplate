@@ -6,7 +6,7 @@ from decouple import config
 from app.api.controllers.controller import controller
 api = APIRouter()
 
-@api.get("/exemple/{year}")
+@api.get("/example/{year}")
 def funtion_to_execute(year: int):
     response = controller(year)
     return response
